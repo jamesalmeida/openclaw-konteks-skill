@@ -2,7 +2,7 @@
 
 **Give your AI agent persistent memory, tasks, notes, and project context.**
 
-A [Clawdbot](https://github.com/clawdbot/clawdbot) skill that connects your agent to your [Konteks](https://konteks.app) account. Your agent can read and write tasks, notes, memories, and projects — maintaining context across conversations.
+A [OpenClaw](https://github.com/openclaw/openclaw) skill that connects your agent to your [Konteks](https://konteks.app) account. Your agent can read and write tasks, notes, memories, and projects — maintaining context across conversations.
 
 ## Why?
 
@@ -23,14 +23,14 @@ clawdhub install konteks
 ### Manual
 ```bash
 git clone https://github.com/jamesalmeida/konteks-skill.git
-cp -r konteks-skill /path/to/clawdbot/skills/konteks
+cp -r konteks-skill /path/to/openclaw/skills/konteks
 ```
 
 ## Setup
 
 1. Sign up at [konteks.app](https://konteks.app)
 2. Go to **Settings → Generate API Key**
-3. Add to your Clawdbot config:
+3. Add to your Openclaw config:
 
 ```yaml
 skills:
@@ -111,9 +111,9 @@ See [SKILL.md](./SKILL.md) for the full API reference.
 ## Related
 
 - [Konteks Web App](https://konteks.app) — the dashboard
-- [Konteks iOS App](https://apps.apple.com/app/konteks) — mobile access
-- [Clawdbot](https://github.com/clawdbot/clawdbot) — the AI agent framework
-- [ClawdHub](https://clawdhub.com) — skill marketplace
+- [Konteks iOS App]() — COMING SOON!
+- [OpenClaw](https://openclaw.ai/) — the AI agent framework
+- [ClawdHub]([https://clawdhub.com](https://www.clawhub.ai/jamesalmeida/konteks)) — skill marketplace
 
 ## License
 
@@ -121,4 +121,4 @@ MIT
 
 ---
 
-*Built with 🐙 by [Tersono](https://github.com/jamesalmeida) for [Clawdbot](https://github.com/clawdbot/clawdbot)*
+*Built with 🐙 by [Tersono](https://github.com/jamesalmeida) for [Openclaw](https://github.com/openclaw/openclaw)*
