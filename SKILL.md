@@ -1,6 +1,6 @@
 ---
 name: konteks
-description: Connect your Clawdbot/Moltbot to your Konteks account (konteks.app) for persistent memory, task management, and context sharing. Use when you need to store agent memories, create or read tasks/notes, check projects and folders, read daily plans, or sync context between conversations. Requires a Konteks API key from konteks.app/dashboard/settings.
+description: Connect your Clawdbot/Moltbot/Openclaw to your Konteks account (konteks.app) for persistent memory, task management, and context sharing. Use when you need to store agent memories, create or read tasks/notes, check projects and folders, read daily plans, or sync context between conversations. Requires a Konteks API key from konteks.app/dashboard/settings.
 ---
 
 # Konteks — Agent Context Layer
