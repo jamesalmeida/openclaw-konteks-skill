@@ -5,7 +5,7 @@ description: Connect your Clawdbot/Moltbot/Openclaw to your Konteks account (kon
 
 # Konteks — Agent Context Layer
 
-**Source:** https://github.com/jamesalmeida/konteks-skill
+**Source:** https://github.com/jamesalmeida/openclaw-konteks-skill
 
 Connect to your human's Konteks account for persistent memory, tasks, notes, and projects.
 
@@ -180,7 +180,7 @@ curl -X POST "{url}/api/agent/items" \
 ```
 
 Required: `title`, `item_type` (task|note|hybrid)
-Optional: `body`, `folder_id`, `smart_list` (inbox|anytime|someday — defaults to inbox if no folder), `priority` (high|normal|someday), `due_date`, `scheduled_date`, `tags` (string array)
+Optional: `body`, `folder_id`, `smart_list` (inbox|anytime|someday — defaults to inbox if no folder), `priority` (high|normal|low), `due_date`, `scheduled_date`, `tags` (string array)
 
 Items created by agent have `source: "ai"`.
 
